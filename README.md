@@ -15,6 +15,7 @@ import psutil
 
 This section imports the necessary libraries for handling JSON data, making HTTP requests, sending emails, and collecting system information. Additionally this is the commands to install all the modules:
 
+```python
 pip install json
 pip install urllib
 pip install smtplib
@@ -23,6 +24,7 @@ pip install platform
 pip install socket
 pip install psutil
 pip install requests
+```
 
 Part 2: User Input
 
