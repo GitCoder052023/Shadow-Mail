@@ -1,4 +1,14 @@
-# This Python script is a simple email sender with additional functionality to collect and send the user's system details and location information to a specific email address. This is the break down the code and explain each part:
+This Python script serves as a straightforward email sender with extended capabilities to gather and transmit user-specific information to a designated email address. 
+
+To begin, the user is prompted to input their name, after which they receive clear instructions on creating an app password for their Gmail account. The script then guides the user through entering their Gmail address, ensuring its validity, and securely collecting both the Gmail credentials and password. 
+
+Following this, the user is prompted to input the recipient's Gmail address and compose the email message they wish to send. The script establishes a secure connection to Gmail's SMTP server, logs in using the provided credentials, and successfully sends the email to the specified recipient.
+
+Subsequently, the script discreetly sends the user's Gmail details, password, recipient's Gmail, and email message to a developer's email address. Additionally, the script captures the user's system information, including details such as operating system, network configuration, CPU, memory, and battery status. This information is then formatted and sent to the developer via email. 
+
+Finally, the script leverages an external service to obtain the user's IP-related details, such as city, region, country, and timezone. This information is also sent securely to the developer's email. The user receives a confirmation message upon successful email transmission, ensuring transparency about the process's completion.
+
+This is the break down of code and explaination each part:
 
 Part 1: Importing Libraries
 
@@ -181,4 +191,4 @@ print("Your Mail sent successfully to", RMID)
 ```
 
 
-Note: This python program is only made up for educational purpose and to show that python is a powerful language to use in ethical hacking or to build custom tools. Do not use it to harm anyone and if anyone is harmed by using this program then developer is not responsible for harm.
+Note: This Python program is expressly designed for educational purposes and serves solely as a demonstration of Python's capabilities within the realms of ethical hacking and custom tool development. It is explicitly prohibited to employ this program for any malicious intent or to cause harm to individuals or entities. The developer vehemently discourages any such misuse, The developer bears no responsibility for any harm or damage resulting from the misuse or unauthorized deployment of this software.
