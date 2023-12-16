@@ -25,18 +25,39 @@ import socket
 import psutil
 ```
 
-This section imports the necessary libraries for handling JSON data, making HTTP requests, sending emails, and collecting system information. Additionally this is the commands to install all the modules:
+Installation
 
-```python
-pip install json
-pip install urllib
-pip install smtplib
-pip install email
-pip install platform
-pip install socket
-pip install psutil
-pip install requests
+Follow these steps to set up the Python environment and install the required dependencies for this project:
+
+1. Clone the Repository
+
+```bash
+git clone https://github.com/GitCoder052023/Shadow-Mail.git
+cd Shadow-Mail
 ```
+2. Create a Python Virtual Environment
+Make sure you have Python installed (version 3.8.0 or higher). If not, you can download it from python.org.
+
+Create a virtual environment to isolate the dependencies:
+```bash
+python3 -m venv venv
+```
+3. Activate the Virtual Environment
+Activate the virtual environment based on your operating system:
+On Windows:
+```bash
+venv\Scripts\activate
+```
+On Unix or MacOS:
+```bash
+source venv/bin/activate
+```
+4. Install Required Dependencies
+Use pip to install the necessary dependencies specified in the requirements.txt file:
+```bash
+pip install -r requirements.txt
+```
+
 
 Part 2: User Input
 
